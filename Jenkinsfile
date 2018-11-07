@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') { 
             steps {
-                meterianAnalyze 'test'
+                meterian 'test'
             }
         }
     }
